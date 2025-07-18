@@ -1,4 +1,4 @@
-# Minimalny Blockchain w Pythonie (Flask)
+# Podstawowy Blockchain w Pythonie (Flask)
 
 **Edukacyjna implementacja podstawowego systemu blockchain z REST API**
 
