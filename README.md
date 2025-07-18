@@ -1,27 +1,27 @@
-# Podstawowy Blockchain w Pythonie (Flask)
+# Basic Blockchain in Python (Flask)
 
-**Edukacyjna implementacja podstawowego systemu blockchain z REST API**
+**An educational implementation of a basic blockchain system with a REST API**
 
-## 📌 Opis
+## 📌 Description
 
-Ten projekt demonstruje kluczowe mechanizmy technologii **Blockchain**, takie jak:
+This project demonstrates key mechanisms of blockchain technology, including:
 
-- tworzenie bloków i zarządzanie łańcuchem,
-- obsługa transakcji,
-- algorytm **Proof of Work**,
-- generowanie hashów przy użyciu **SHA-256** (`hashlib`),
-- walidacja integralności łańcucha,
-- komunikacja przez REST API z wykorzystaniem frameworka **Flask**.
+- creating blocks and managing the chain,
+- handling transactions,
+- implementing the Proof of Work algorithm,
+- generating hashes using SHA-256 (`hashlib`),
+- validating the integrity of the blockchain,
+- communicating via a REST API using the Flask framework.
 
-API umożliwia wydobywanie nowych bloków, dodawanie transakcji oraz sprawdzanie poprawności całego łańcucha bloków.
+The API allows you to mine new blocks, add transactions, and verify the integrity of the entire blockchain.
 
-## 🛠 Technologie
+## 🛠 Technologies
 
 - **Python 3**
-- **Flask** – REST API oraz serwer
-- **hashlib** – algorytm SHA-256 dla kryptograficznego hashowania
-- **datetime** – sygnatury czasowe dla bloków
-- **json** – serializacja danych do formatu JSON
-- **unittest** – testy jednostkowe logiki blockchain
+- **Flask** — REST API and web server
+- **hashlib** — SHA-256 algorithm for cryptographic hashing
+- **datetime** — timestamping blocks
+- **json** — data serialization to/from JSON
+- **unittest** — unit testing of the blockchain logic
 
 
